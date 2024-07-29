@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    background-color: bisque;
+}
+.calander-container{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+
+}
+.month-name{
+    margin: 0;
+    background-color: blueviolet;
+    color: beige;
+    padding: 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.day-name{
+    font-size: 20px;
+    color: black;
+}
+.day-date{
+    font-size: 60px;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+}
+.year{
+    font-size: 20px;
+    color: black;
+}
